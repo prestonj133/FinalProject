@@ -5,6 +5,7 @@
 #' @return Updated accounts
 #' @export
 transfer <- function(from_account, to_account, amount) {
+  if(amount > from_account) stop("Not enough funds")
   from_account <- withdraw(from_account, amount)
   to_account <- deposit(to_account, amount)
   return(list(from_account = from_account, to_account = to_account))
