@@ -1,0 +1,14 @@
+Package: BankAccount
+Type: Package
+Title: Creates/ edits bank accounts
+Version: 0.1.0
+Author: Preston Jorgenson
+Maintainer: The package maintainer <pdjorgenson@usf.edu>
+Description: This package allows for the user to create a new bank account, add money to their
+    exising bank account, withdrawl, etc. (the normal functions of a bank account) while allowing them to
+    have savings, checking accounts, etc. 
+License: CCO
+Encoding: UTF-8
+LazyData: true
+Depends: R (>= 3.1.2)
+
